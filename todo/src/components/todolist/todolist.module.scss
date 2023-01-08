@@ -1,0 +1,54 @@
+.todo {
+  background: #121212;
+  color: #fff;
+  width: 390px;
+  border-radius: 30px;
+  margin: 20px auto;
+  padding: 13px 20px;
+
+  &__todayBlock {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__checkbox {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+  }
+
+  &__today {
+    // font-family: "Abhaya Libre SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.title {
+  margin: 0;
+  //   font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.buttond {
+  height: 30px;
+  width: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
